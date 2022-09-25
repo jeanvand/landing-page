@@ -1,0 +1,109 @@
+ul{
+    padding: 0px;
+    list-style-type: none;
+    border: 0px dashed black;
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+@media not (orientation: landscape) and (min-width: 400px) {
+    
+}
+
+.tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+#trait1{
+    width: 60%;
+    margin-top: 2em;
+}
+
+#logo{
+    width: 10%;
+    height: auto;
+}
+.tete .produits{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+}
+.tete .événements{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+}
+.tete .services{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+}
+
+#imglogo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#top{
+    display: flex;
+}
+
+.titre1{
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    font-size: 180%;
+}
+
+#imgairpods1{
+    width: 40%;
+    height: auto;
+    display: flex;
+    margin-left: 4em;
+}
+
+.para1{
+    display: flex;
+    margin-right: 18em;
+    margin-top: 4em;
+    font-size: 125%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#bot{
+    display: flex;
+}
+
+.para2{
+    display: flex;
+    margin-top: 6em;
+    margin-left: 13em;
+    margin-right: 10em;
+    font-size: 120%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#imgairpods2{
+    width: 40%;
+    height: auto;
+    display: flex;
+    margin-right: 6em;
+}
+
+#trait2{
+    width: 60%;
+}
+
+.fin{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 110%;
+}
+
+footer{
+    margin: 4em;
+}
